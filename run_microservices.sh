@@ -5,7 +5,7 @@ echo "Starting RealWorld Social App Microservices..."
 echo "========================================================"
 
 echo "[1/3] Starting API Service (Port 5000/5001)..."
-(cd backend/api && go run main.go) &
+(cd backend/api && go run ./cmd) &
 API_PID=$!
 
 echo "[2/3] Starting RealTime Chat Service (Port 8001)..."
