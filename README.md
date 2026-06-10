@@ -6,6 +6,12 @@ This project consists of three main backend microservices built in Golang.
 
 You can easily run all the backend microservices at once using the provided scripts.
 
+Note You need to have Docker and run this command 
+
+   docker-compose up -d 
+
+becuse this requreid redis to be runing 
+
 ### For Windows Users
 1. Double-click on `run_microservices.bat` in the project root directory, or run it from your terminal:
    ```cmd
